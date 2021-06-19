@@ -40,7 +40,7 @@ class HexColor extends Color {
   HexColor(final String hexColor) : super(_getColorFromHex(hexColor));
 }
 
-class DynamicColorScheme extends ThemeData {
+class DynamicColorScheme extends ColorScheme {
   final Color primary;
   final Color primaryText;
   final Color accent;
@@ -149,9 +149,9 @@ class DynamicColorScheme extends ThemeData {
   //   required String errorText,}) {return LightColorScheme.internal(primary: HexColor._getColorFromHex(primary));}
 }
 
-class LigthColorScheme extends DynamicColorScheme {
-  LigthColorScheme() : super.internal();
-}
+// class LigthColorScheme extends DynamicColorScheme {
+//   LigthColorScheme() : super.internal();
+// }
 
 // ThemeDate for Light Theme
 ColorScheme odThemeColorSchemeLight(BuildContext context) {
