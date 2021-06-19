@@ -1,7 +1,7 @@
 name: dynamic_theme
-description: A new Flutter package project.
+description: Dynamic Theme Package witch allow us to switch between different Themes efficiently.
 version: 0.0.1
-homepage:
+homepage: https://github.com/danish0007/Dynamic-Theme
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
